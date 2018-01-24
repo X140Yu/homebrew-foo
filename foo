@@ -9,7 +9,7 @@ program_desc 'A Simple CLI'
 desc "Say hello"
 command :hello do |c|
   c.action do
-    puts "hello"
+    puts "hello v0.0.1"
   end
 end
 
