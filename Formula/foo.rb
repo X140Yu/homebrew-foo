@@ -1,7 +1,7 @@
 class Foo < Formula
   desc "A Simple CLI"
   homepage "zhaoxinyu.me"
-  url "https://github.com/X140Yu/homebrew-foo", :using => :git
+  url "https://github.com/X140Yu/homebrew-foo", :using => :git, :tag => '0.0.1'
 
   resource "gli" do
     url "https://rubygems.org/downloads/gli-2.17.1.gem"
