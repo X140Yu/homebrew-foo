@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+require 'gli'
+ 
+include GLI::App
+
+program_desc 'A Simple CLI'
+
+desc "Say hello"
+command :hello do |c|
+  c.action do
+    puts "hello"
+  end
+end
+
+desc "Say goodbye"
+command :goodbye do |c|
+  c.action do
+    puts "goodbye"
+  end
+end
+
+exit run(ARGV)
